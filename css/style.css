@@ -1,0 +1,162 @@
+* {
+  padding: 0;
+  font-family: "Work Sans", sans-serif;
+  margin: 0;
+}
+body {
+  margin-bottom: 250px;
+}
+@media (max-width: 575px) {
+  .container {
+    width: 570px;
+  }
+  .links {
+    font-size: 80px;
+  }
+  .social_media {
+    width: 250px;
+  }  .header{
+    padding: 60px 30px;
+  }
+}
+@media (min-width: 576px) {
+  .container {
+    width: 570px;
+  }
+  .links {
+    font-size: 80px;
+  }
+  .social_media {
+    width: 400px;
+  }
+  .header{
+    padding: 60px 60px;
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+  .links {
+    font-size: 90px;
+  }
+  .social_media {
+    width: 500px;
+  }
+  .header{
+    padding: 60px 100px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 980px;
+  }
+  .links {
+    font-size: 100px;
+  }
+  .social_media {
+    width: 650px;
+  }
+  .header{
+    padding: 60px 100px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1190px;
+  }
+  .links {
+    font-size: 101.87px;
+  }
+  .social_media {
+    width: 500px;
+  }
+  .header{
+    padding: 60px 100px;
+  }
+}
+@media (min-width: 1400px) {
+  .container {
+    width: 1390px;
+  }
+  .links {
+    font-size: 101.87px;
+  }
+  .social_media {
+    width: 500px;
+  }
+  .header{
+    padding: 60px 100px;
+  }
+}
+
+.container {
+  padding: 0 55px;
+  margin-right: auto;
+}
+.container img {
+  width: 60px;
+}
+.header {
+  height: 300px;
+  background-color: #f6f6f6;
+  text-align: start;
+
+}
+.header img {
+  border-radius: 15px;
+  width: 190px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.219);
+}
+
+.Hello-There {
+  color: #10cab7;
+  font-weight: 800;
+  font-size: 45.43px;
+}
+
+.sub-title {
+  font-weight: normal;
+  font-size: 20px;
+}
+.row img {
+  width: 80px;
+}
+
+.links {
+  color: #f3f3f3;
+  font-weight: 800;
+  text-align: center;
+  font-size: 70.87px;
+}
+
+.contacts {
+  margin-top: 1cm;
+  display: grid;
+  row-gap: 30px;
+  justify-content: center;
+}
+
+.text {
+  color: var(--text-color);
+  text-decoration: none;
+}
+
+.social_media {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+
+  padding: 10px;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 250px;
+  justify-content: center;
+}
+.social_media:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.185);
+}
+
+a p {
+  margin: 0;
+}
